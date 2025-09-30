@@ -3,7 +3,7 @@ import React from 'react'
 function page() {
   return (
     <div>
-      <h1>New Companion</h1>
+      <h1>Companions</h1>
     </div>
   )
 }
