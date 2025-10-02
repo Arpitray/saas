@@ -9,6 +9,7 @@ const navitems = [
     {label : "My Journey", url : "/my-journey"},
     {label : "Companions", url : "/companions"},
     {label : "Dashboard", url : "/dashboard"},
+    {label : "Pricing", url : "/subscription"},
 ]
 function NavItems() {
   const pathname = usePathname();
