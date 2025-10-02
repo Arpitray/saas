@@ -47,8 +47,8 @@ function CompanionForm() {
   })
 
   // 2. Define a submit handler.
-  const onSubmit = (values) => {
-    console.log(values)
+  const onSubmit = async(values) => {
+    const companion = await createCompanion(values)
   }
 
   return (
